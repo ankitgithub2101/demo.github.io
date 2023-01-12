@@ -1,0 +1,51 @@
+<section class="text">
+    <h1>About our journey</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur ad possimus ex et numquam autem iste at neque, veritatis labore officia
+        impedit, soluta corrupti hic laboriosam laborum? Tempora, cumque obcaecati! Doloribus placeat facere eaque.
+        Facere suscipit totam, unde odio accusantium repellat optio enim, placeat corrupti ad quas harum molestiae
+        delectus est deleniti? Aliquid, repudiandae cupiditate numquam autem facilis ipsa quasi consequuntur ad neque
+        voluptates nisi sunt quo. Accusamus quam natus soluta eum ipsum voluptatem eveniet veritatis modi rerum
+        quibusdam, expedita commodi animi deleniti omnis ipsa? Facere magnam inventore, accusamus dolores dolore velit
+        molestiae! Amet ipsam laboriosam expedita accusamus? Voluptatibus ab dolore cumque dolor eum impedit! Reiciendis
+        dolores modi dolorum repellat doloremque blanditiis nemo, obcaecati reprehenderit, commodi dicta sed? Explicabo
+        fugit laudantium aliquam placeat labore vitae accusamus, delectus, reiciendis eum vero cumque excepturi
+        architecto voluptates doloremque hic facere itaque ipsa! Repellendus, maiores numquam! Debitis dolores enim esse
+      
+    </p>
+</section>
+
+<section >
+    <div class="dropdown">
+        <select ng-model="drpdwn">
+            <option value="">--select--</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="react">React</option>
+            <option value="dotnet">Dotnet</option>
+        </select>
+    </div>
+
+    <div ng-switch="drpdwn">
+        <div ng-switch-when="java">
+            <h1>Java</h1>
+            <p>Here you can learn all the coding skills from scratch</p>
+        </div>
+
+        <div ng-switch-when="python">
+            <h1>Python</h1>
+        </div>
+
+        <div ng-switch-when="react">
+            <h1>React</h1>
+        </div>
+
+        <div ng-switch-when="dotnet">
+            <h1>Dotnet</h1>
+        </div>
+    </div>
+   
+
+    
+
+</section>

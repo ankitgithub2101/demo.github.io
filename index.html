@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive nav sticky</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <a class="brand" >travel guide</a>
+            <div class="menu" id="myDIV">
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+                <a href="#!home" class="nav__link active">Home</a>
+                <a href="#!about" class="nav__link">About</a>
+                <a href="#!contact" class="nav__link">Contact Us</a>
+            </div>
+            <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
+            </div>
+    </header>
+
+   <section class="main">
+   
+   
+    <ng-view></ng-view>
+   </section>
+
+   <footer>
+    <div class="copyright">
+      <p>&copy 2023 - All rights reserved</p>
+    </div>
+    <div class="social">
+      <a href="#!contact" class="support">Contact Us</a>
+      <a class="face">f</a>
+      <!-- <a href="#" class="tweet">t</a> -->
+      <a  class="linked">in</a>
+    </div>
+  </footer>
+
+    
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
