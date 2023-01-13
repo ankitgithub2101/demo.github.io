@@ -457,6 +457,7 @@ select > option {
 
   .front2{
     width: 350px;
+    background-image: url("../images/lion.jpg");
   }
   
   .front2,
@@ -532,7 +533,7 @@ select > option {
     outline: 1px solid transparent;
     -webkit-perspective: inherit;
       perspective: inherit;
-    z-index: 2;
+    /* z-index: 2; */
   }
   
   .container2 .back2{
@@ -581,7 +582,6 @@ select > option {
   right: 0;
   margin: 0 auto;
   bottom: -.75rem;
-  
   }
   
 
