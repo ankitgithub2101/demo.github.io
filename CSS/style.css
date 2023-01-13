@@ -569,6 +569,8 @@ select > option {
   font-size: 2rem;
   /* margin-bottom: 2rem; */
   position: relative;
+  z-index:999999;	  
+	  
   }
   
   .front2 .inner2 p:after{
