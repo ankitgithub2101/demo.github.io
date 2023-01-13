@@ -457,7 +457,7 @@ select > option {
 
   .front2{
     width: 350px;
-    background-image: url("../images/lion.jpg");
+    background-image: url('../images/lion.jpg');
   }
   
   .front2,
